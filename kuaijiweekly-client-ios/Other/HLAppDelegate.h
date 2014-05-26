@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 com.huluo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HLLoginViewController.h"
 
 @interface HLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) HLLoginViewController *viewController;
 
 @end

@@ -7,15 +7,19 @@
 //
 
 #import "HLAppDelegate.h"
-
+#import "FlipSquaresNavigationController.h"
+#import "HLLoginViewController.h"
 @implementation HLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.viewController = [[HLLoginViewController alloc] initViewController];
+    self.window.rootViewController = [[FlipSquaresNavigationController alloc] initWithRootViewController:self.viewController];
+    //self.window.rootViewController = [[CubeNavigationController alloc] initWithRootViewController:self.viewController];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
