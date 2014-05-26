@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AE5E541932E34F00057AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E531932E34F00057AAB /* Foundation.framework */; };
+		05AE5E561932E34F00057AAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E551932E34F00057AAB /* CoreGraphics.framework */; };
+		05AE5E581932E34F00057AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E571932E34F00057AAB /* UIKit.framework */; };
+		05AE5E5E1932E34F00057AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AE5E5C1932E34F00057AAB /* InfoPlist.strings */; };
+		05AE5E601932E34F00057AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AE5E5F1932E34F00057AAB /* main.m */; };
+		05AE5E641932E34F00057AAB /* HLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AE5E631932E34F00057AAB /* HLAppDelegate.m */; };
+		05AE5E661932E34F00057AAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AE5E651932E34F00057AAB /* Images.xcassets */; };
+		05AE5E6D1932E34F00057AAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E6C1932E34F00057AAB /* XCTest.framework */; };
+		05AE5E6E1932E34F00057AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E531932E34F00057AAB /* Foundation.framework */; };
+		05AE5E6F1932E34F00057AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AE5E571932E34F00057AAB /* UIKit.framework */; };
+		05AE5E771932E34F00057AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AE5E751932E34F00057AAB /* InfoPlist.strings */; };
+		05AE5E791932E34F00057AAB /* kuaijiweekly_client_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AE5E781932E34F00057AAB /* kuaijiweekly_client_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AE5E701932E34F00057AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AE5E481932E34F00057AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AE5E4F1932E34F00057AAB;
+			remoteInfo = "kuaijiweekly-client-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AE5E501932E34F00057AAB /* kuaijiweekly-client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kuaijiweekly-client-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AE5E531932E34F00057AAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05AE5E551932E34F00057AAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05AE5E571932E34F00057AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05AE5E5B1932E34F00057AAB /* kuaijiweekly-client-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuaijiweekly-client-ios-Info.plist"; sourceTree = "<group>"; };
+		05AE5E5D1932E34F00057AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05AE5E5F1932E34F00057AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05AE5E611932E34F00057AAB /* kuaijiweekly-client-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuaijiweekly-client-ios-Prefix.pch"; sourceTree = "<group>"; };
+		05AE5E621932E34F00057AAB /* HLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAppDelegate.h; sourceTree = "<group>"; };
+		05AE5E631932E34F00057AAB /* HLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAppDelegate.m; sourceTree = "<group>"; };
+		05AE5E651932E34F00057AAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05AE5E6B1932E34F00057AAB /* kuaijiweekly-client-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kuaijiweekly-client-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AE5E6C1932E34F00057AAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05AE5E741932E34F00057AAB /* kuaijiweekly-client-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuaijiweekly-client-iosTests-Info.plist"; sourceTree = "<group>"; };
+		05AE5E761932E34F00057AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05AE5E781932E34F00057AAB /* kuaijiweekly_client_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kuaijiweekly_client_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05AE5E4D1932E34F00057AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E561932E34F00057AAB /* CoreGraphics.framework in Frameworks */,
+				05AE5E581932E34F00057AAB /* UIKit.framework in Frameworks */,
+				05AE5E541932E34F00057AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AE5E681932E34F00057AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E6D1932E34F00057AAB /* XCTest.framework in Frameworks */,
+				05AE5E6F1932E34F00057AAB /* UIKit.framework in Frameworks */,
+				05AE5E6E1932E34F00057AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AE5E471932E34F00057AAB = {
+			isa = PBXGroup;
+			children = (
+				05AE5E591932E34F00057AAB /* kuaijiweekly-client-ios */,
+				05AE5E721932E34F00057AAB /* kuaijiweekly-client-iosTests */,
+				05AE5E521932E34F00057AAB /* Frameworks */,
+				05AE5E511932E34F00057AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05AE5E511932E34F00057AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E501932E34F00057AAB /* kuaijiweekly-client-ios.app */,
+				05AE5E6B1932E34F00057AAB /* kuaijiweekly-client-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AE5E521932E34F00057AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E531932E34F00057AAB /* Foundation.framework */,
+				05AE5E551932E34F00057AAB /* CoreGraphics.framework */,
+				05AE5E571932E34F00057AAB /* UIKit.framework */,
+				05AE5E6C1932E34F00057AAB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05AE5E591932E34F00057AAB /* kuaijiweekly-client-ios */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E621932E34F00057AAB /* HLAppDelegate.h */,
+				05AE5E631932E34F00057AAB /* HLAppDelegate.m */,
+				05AE5E651932E34F00057AAB /* Images.xcassets */,
+				05AE5E5A1932E34F00057AAB /* Supporting Files */,
+			);
+			path = "kuaijiweekly-client-ios";
+			sourceTree = "<group>";
+		};
+		05AE5E5A1932E34F00057AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E5B1932E34F00057AAB /* kuaijiweekly-client-ios-Info.plist */,
+				05AE5E5C1932E34F00057AAB /* InfoPlist.strings */,
+				05AE5E5F1932E34F00057AAB /* main.m */,
+				05AE5E611932E34F00057AAB /* kuaijiweekly-client-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05AE5E721932E34F00057AAB /* kuaijiweekly-client-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E781932E34F00057AAB /* kuaijiweekly_client_iosTests.m */,
+				05AE5E731932E34F00057AAB /* Supporting Files */,
+			);
+			path = "kuaijiweekly-client-iosTests";
+			sourceTree = "<group>";
+		};
+		05AE5E731932E34F00057AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AE5E741932E34F00057AAB /* kuaijiweekly-client-iosTests-Info.plist */,
+				05AE5E751932E34F00057AAB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05AE5E4F1932E34F00057AAB /* kuaijiweekly-client-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AE5E7C1932E34F00057AAB /* Build configuration list for PBXNativeTarget "kuaijiweekly-client-ios" */;
+			buildPhases = (
+				05AE5E4C1932E34F00057AAB /* Sources */,
+				05AE5E4D1932E34F00057AAB /* Frameworks */,
+				05AE5E4E1932E34F00057AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kuaijiweekly-client-ios";
+			productName = "kuaijiweekly-client-ios";
+			productReference = 05AE5E501932E34F00057AAB /* kuaijiweekly-client-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05AE5E6A1932E34F00057AAB /* kuaijiweekly-client-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AE5E7F1932E34F00057AAB /* Build configuration list for PBXNativeTarget "kuaijiweekly-client-iosTests" */;
+			buildPhases = (
+				05AE5E671932E34F00057AAB /* Sources */,
+				05AE5E681932E34F00057AAB /* Frameworks */,
+				05AE5E691932E34F00057AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AE5E711932E34F00057AAB /* PBXTargetDependency */,
+			);
+			name = "kuaijiweekly-client-iosTests";
+			productName = "kuaijiweekly-client-iosTests";
+			productReference = 05AE5E6B1932E34F00057AAB /* kuaijiweekly-client-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05AE5E481932E34F00057AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.huluo;
+				TargetAttributes = {
+					05AE5E6A1932E34F00057AAB = {
+						TestTargetID = 05AE5E4F1932E34F00057AAB;
+					};
+				};
+			};
+			buildConfigurationList = 05AE5E4B1932E34F00057AAB /* Build configuration list for PBXProject "kuaijiweekly-client-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05AE5E471932E34F00057AAB;
+			productRefGroup = 05AE5E511932E34F00057AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05AE5E4F1932E34F00057AAB /* kuaijiweekly-client-ios */,
+				05AE5E6A1932E34F00057AAB /* kuaijiweekly-client-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05AE5E4E1932E34F00057AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E5E1932E34F00057AAB /* InfoPlist.strings in Resources */,
+				05AE5E661932E34F00057AAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AE5E691932E34F00057AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E771932E34F00057AAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05AE5E4C1932E34F00057AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E641932E34F00057AAB /* HLAppDelegate.m in Sources */,
+				05AE5E601932E34F00057AAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AE5E671932E34F00057AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE5E791932E34F00057AAB /* kuaijiweekly_client_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05AE5E711932E34F00057AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AE5E4F1932E34F00057AAB /* kuaijiweekly-client-ios */;
+			targetProxy = 05AE5E701932E34F00057AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05AE5E5C1932E34F00057AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AE5E5D1932E34F00057AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05AE5E751932E34F00057AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AE5E761932E34F00057AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05AE5E7A1932E34F00057AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05AE5E7B1932E34F00057AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05AE5E7D1932E34F00057AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05AE5E7E1932E34F00057AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05AE5E801932E34F00057AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuaijiweekly-client-ios.app/kuaijiweekly-client-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kuaijiweekly-client-iosTests/kuaijiweekly-client-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05AE5E811932E34F00057AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuaijiweekly-client-ios.app/kuaijiweekly-client-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuaijiweekly-client-ios/kuaijiweekly-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "kuaijiweekly-client-iosTests/kuaijiweekly-client-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05AE5E4B1932E34F00057AAB /* Build configuration list for PBXProject "kuaijiweekly-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AE5E7A1932E34F00057AAB /* Debug */,
+				05AE5E7B1932E34F00057AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AE5E7C1932E34F00057AAB /* Build configuration list for PBXNativeTarget "kuaijiweekly-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AE5E7D1932E34F00057AAB /* Debug */,
+				05AE5E7E1932E34F00057AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05AE5E7F1932E34F00057AAB /* Build configuration list for PBXNativeTarget "kuaijiweekly-client-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AE5E801932E34F00057AAB /* Debug */,
+				05AE5E811932E34F00057AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05AE5E481932E34F00057AAB /* Project object */;
+}
